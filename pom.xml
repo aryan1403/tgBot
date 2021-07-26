@@ -10,7 +10,25 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
+  <repositories>
+    <repository>
+      <id>mchv</id>
+      <name>MCHV Apache Maven Packages</name>
+      <url>https://mvn.mchv.eu/repository/mchv/</url>
+    </repository>
+  </repositories>
   <dependencies>
+    <dependency>
+      <groupId>it.tdlight</groupId>
+      <artifactId>tdlight-java</artifactId>
+      <version>4.171.134</version>
+    </dependency>
+    <dependency>
+      <groupId>it.tdlight</groupId>
+      <artifactId>tdlight-natives-linux-amd64</artifactId>
+      <version>3.3.57</version>
+    </dependency>
+    <!-- include other native versions that you want, for example for macos, windows, and other architectures here -->
     <dependency>
       <groupId>org.telegram</groupId>
       <artifactId>telegrambots</artifactId>
