@@ -2,10 +2,8 @@ package com.example.Plugins;
 
 import com.example.Bot;
 import com.example.Master;
-
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.api.objects.voicechat.VoiceChatScheduled;
-import org.telegram.telegrambots.meta.api.objects.voicechat.VoiceChatStarted;
 
 public class voiceChat extends Bot implements Master{
 
